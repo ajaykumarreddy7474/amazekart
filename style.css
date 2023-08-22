@@ -215,12 +215,6 @@ padding-bottom: 20px;
 
 /* -------------------feature products-------------------- */
 
-/* 
-{
-  font-size: 20px;
-
-} */
-
 #product1{
   text-align: center;
 }
@@ -233,9 +227,9 @@ padding-bottom: 20px;
 #product1 .pro{
   width: 20%;
   min-width: 250px;
-  padding :10px 12px;
-  border: 1px solid #cce7d0;
-  border-radius: 25px;
+  padding :10px 10px;
+  border: 1px solid #f58326;
+  border-radius: 5px;
   cursor: pointer;
   box-shadow: 20px 20px 30px rgba(0,0,0, 0.3);
   margin: 15px 0px;
@@ -250,7 +244,7 @@ padding-bottom: 20px;
   border-radius: 20px;
 }
 #product1 .pro:hover{
-  box-shadow:20px 20px 30px  rgba(0,0,0, 0.9);
+  box-shadow:20px 20px 30px  rgba(0,0,0, 0.7);
 }
 
 #product1 .pro .des {
@@ -264,7 +258,7 @@ padding-bottom: 20px;
 }
 
 #product1 .pro .des h5{
-  padding-top: 7px;
+  padding-top: 0px;
   color: #1a1a1a;
   font-size: 14px;
 }
@@ -275,7 +269,7 @@ padding-bottom: 20px;
 }
 
 #product1 .pro .des h4{
-  padding-top: 7px;
+  /* padding-top: 7px; */
   font-size: 20px;
   font-weight: 700;
   color: green;
@@ -580,6 +574,16 @@ height: 44px;
   padding: 40px 0px 10px 0px;
   font-size: 30px;
 }
+
+#logout{
+  background-color: rgb(235, 35, 0);
+  outline: none;
+  border: none;
+  padding:220px;
+  border-radius: 4px;
+  cursor:pointer;
+}
+
 
 
 
